@@ -106,7 +106,15 @@ function! s:Cow(args, ...)
   if a:args != ""
     let lines = a:args
   else
-    let lines = join(getline(a:1, a:2), "\n")
+    if a:1 == a:2
+      let lines = getline(a:1)
+    else
+      let lines = join(getline(a:1, a:2), "\n")
+    endif
+  endif
+
+  if lines == ''
+    let lines = ' '
   endif
 
   let cow = system('cowsay -f ' . s:cowfile, lines)
