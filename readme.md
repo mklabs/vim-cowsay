@@ -5,14 +5,17 @@ cowsay.vim
 **just vim saying cowsay**
 
 ```
- ____________________
-< Vimmmmmmeuuuuuuuuh >
- --------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+ ____________
+< Cowsay.vim >
+ ------------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
 ```
 
 cowsay.vim is a simple wrapper to [cowsay](http://www.nog.net/~tony/warez/cowsay.shtml)
@@ -80,6 +83,14 @@ Visual range works too!
 Same as ':Cow', expect that it also triggers :TComment if is
 installed.
 
+### :Cowfile
+
+Switch default `'cowfile'` to given argument. If no argument provided, then it
+displays the active one. Basic completion should be supported with all
+available cowfile (stored in `/usr/local/share/cows`)
+
+Relatedly, you might want to run the `lscowfile.sh` script to see them all
+(there are some funny cowfile in there...)
 
 Install
 -------
