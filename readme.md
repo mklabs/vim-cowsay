@@ -95,15 +95,11 @@ Relatedly, you might want to run the `lscowfile.sh` script to see them all
 Install
 -------
 
-Just drop this vim script in one of your runtime path, `~/.vim/plugin/`
-maybe. Or if you use pathogen you might want to bundle it as a pathogen
-module,
+Via pathogen
 
 ```sh
 cd ~/.vim/bundle
-git clone <gistcloneturl> cowsay.vim
-cd cowsay.vim
-mkdir plugin && mv cowsay.vim plugin/
+git://github.com/mklabs/vim-cowsay.git
 ```
 Make sure to have cowsay installed and available in your path.
 
