@@ -1,0 +1,12 @@
+{
+  "author": "mklabs",
+  "name": "cowsay",
+  "description": "hmmmmmmm, just vim saying cowsay",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/mklabs/vim-cowsay.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
+
