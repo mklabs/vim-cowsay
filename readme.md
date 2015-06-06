@@ -98,8 +98,7 @@ Install
 Via pathogen
 
 ```sh
-cd ~/.vim/bundle
-git://github.com/mklabs/vim-cowsay.git
+git clone git://github.com/mklabs/vim-cowsay.git ~/.vim/bundle/vim-cowsay
 ```
 Make sure to have cowsay installed and available in your path.
 
